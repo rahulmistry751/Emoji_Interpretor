@@ -9,7 +9,11 @@ const emojiDictionary = {
   "🧇": "waffle",
   "🥞": "pancakes",
   "🥯": "bagel",
-  "🥖": "baguette bread"
+  "🥖": "baguette bread",
+  "🌮": "taco",
+  "🍣": "sushi",
+  "🍛": "curry rice",
+  "🥨": "pretzel"
 };
 var emojis = Object.keys(emojiDictionary);
 
