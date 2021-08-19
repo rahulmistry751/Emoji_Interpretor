@@ -21,7 +21,11 @@ export default function App() {
   var [emoji, setEmoji] = useState("Meaning will show here");
   function showEmoji(event) {
     const myemoji = event.target.value;
-    setEmoji(emojiDictionary[myemoji]);
+    if (emojiDictionary[myemoji]) {
+      setEmoji(emojiDictionary[myemoji]);
+    } else {
+      setEmoji("This emoji is not in our database");
+    }
   }
   function showEmojiMeaning(inputEmoji) {
     setEmoji(emojiDictionary[inputEmoji]);
