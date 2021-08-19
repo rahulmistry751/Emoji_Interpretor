@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import "./styles.css";
 const emojiDictionary = {
-  "😊": "Smiling",
-  "😳": "disbelief",
-  "😔": "sad",
-  "🥡": "takeout box",
-  "❤️": "love",
-  "😑": "annoyance",
-  "😂": "laughing",
-  "😉": "winking",
-  "😏": "smirking"
+  "🍕": "Pizza",
+  "🍔": "Burger",
+  "🍟": "French fries",
+  "🌭": "Hot dog",
+  "🍿": "popcorn",
+  "🧇": "waffle",
+  "🥞": "pancakes",
+  "🥯": "bagel",
+  "🥖": "baguette bread"
 };
 var emojis = Object.keys(emojiDictionary);
 
