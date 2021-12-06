@@ -1,2 +1,2 @@
 # Emoji_Interpretor
-Created with CodeSandbox
+-Helps in finding meaning of emojis
